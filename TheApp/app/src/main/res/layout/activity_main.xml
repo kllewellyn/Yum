@@ -35,4 +35,13 @@
         android:layout_above="@+id/editText"
         android:queryHint="Search which restaurant..." />
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
